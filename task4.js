@@ -1,0 +1,10 @@
+var s=document.getElementById('container');
+var seconds=document.getElementsByClassName('second');
+var third=document.querySelector('ol .third');
+s.append('Hello!');
+var f=document.querySelector('.footer');
+f.classList.add('main');
+f.classList.remove('main');
+var li=document.createElement('li');
+li.textContent='four';
+document.querySelector('ul').appendChild(li);
